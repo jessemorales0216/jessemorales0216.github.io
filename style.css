@@ -120,3 +120,68 @@ body {
   color: #475569;
   margin-bottom: 18px;
 }
+
+.projects {
+  background-color: #f8fafc;
+  padding: 90px 20px;
+}
+
+.projects h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: #0f172a;
+}
+
+.section-intro {
+  max-width: 700px;
+  color: #64748b;
+  margin-bottom: 40px;
+  font-size: 1.05rem;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.project-card {
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 28px;
+  box-shadow: 0 4px 14px rgba(15, 23, 42, 0.05);
+}
+
+.project-card h3 {
+  font-size: 1.3rem;
+  color: #0f172a;
+  margin-bottom: 10px;
+}
+
+.project-tools {
+  color: #2563eb;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.project-card p {
+  color: #475569;
+  margin-bottom: 18px;
+}
+
+.project-link {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.project-link:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 750px) {
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+}
