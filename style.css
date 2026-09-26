@@ -498,3 +498,38 @@ html {
   color: #475569;
   max-width: 750px;
 }
+
+
+.footer {
+  background-color: #0f172a;
+  color: #cbd5e1;
+  padding: 28px 20px;
+}
+
+.footer .section-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.footer-links {
+  display: flex;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+
+.footer-links a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
