@@ -224,3 +224,44 @@ body {
   color: #475569;
   margin-bottom: 10px;
 }
+
+.skills {
+  background-color: #f8fafc;
+  padding: 90px 20px;
+}
+
+.skills h2 {
+  font-size: 2rem;
+  margin-bottom: 35px;
+  color: #0f172a;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.skills-card {
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 4px 14px rgba(15, 23, 42, 0.04);
+}
+
+.skills-card h3 {
+  font-size: 1.15rem;
+  color: #0f172a;
+  margin-bottom: 10px;
+}
+
+.skills-card p {
+  color: #475569;
+}
+
+@media (max-width: 800px) {
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+}
