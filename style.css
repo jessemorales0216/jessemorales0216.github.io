@@ -99,3 +99,24 @@ body {
     font-size: 1rem;
   }
 }
+.about {
+  background-color: #ffffff;
+  padding: 90px 20px;
+}
+
+.section-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.about h2 {
+  font-size: 2rem;
+  margin-bottom: 25px;
+  color: #0f172a;
+}
+
+.about p {
+  font-size: 1.05rem;
+  color: #475569;
+  margin-bottom: 18px;
+}
