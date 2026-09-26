@@ -469,3 +469,32 @@ html {
   transform: translateY(-4px);
   box-shadow: 0 10px 24px rgba(15, 23, 42, 0.10);
 }
+
+
+.education {
+  background-color: #ffffff;
+  padding: 90px 20px;
+}
+
+.education h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #0f172a;
+}
+
+.education-item h3 {
+  font-size: 1.3rem;
+  color: #0f172a;
+  margin-bottom: 6px;
+}
+
+.education-school {
+  color: #2563eb;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.education-item p {
+  color: #475569;
+  max-width: 750px;
+}
