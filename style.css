@@ -282,3 +282,27 @@ body {
   gap: 15px;
   flex-wrap: wrap;
 }
+
+.contact {
+  background-color: #f8fafc;
+  padding: 90px 20px;
+}
+
+.contact h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: #0f172a;
+}
+
+.contact p {
+  max-width: 650px;
+  color: #475569;
+  margin-bottom: 25px;
+  font-size: 1.05rem;
+}
+
+.contact-links {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
