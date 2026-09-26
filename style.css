@@ -259,9 +259,26 @@ body {
 .skills-card p {
   color: #475569;
 }
+.resume {
+  background-color: #ffffff;
+  padding: 90px 20px;
+}
 
-@media (max-width: 800px) {
-  .skills-grid {
-    grid-template-columns: 1fr;
-  }
+.resume h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: #0f172a;
+}
+
+.resume p {
+  max-width: 650px;
+  color: #475569;
+  margin-bottom: 25px;
+  font-size: 1.05rem;
+}
+
+.resume-buttons {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
 }
