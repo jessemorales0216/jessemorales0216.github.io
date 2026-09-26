@@ -363,3 +363,79 @@ html {
     justify-content: center;
   }
 }
+.case-study {
+  background-color: #ffffff;
+  padding: 70px 20px 100px;
+}
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 30px;
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+.case-study h1 {
+  font-size: 2.6rem;
+  line-height: 1.2;
+  color: #0f172a;
+  margin-bottom: 12px;
+}
+
+.case-study-tools {
+  color: #2563eb;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.case-study-summary {
+  max-width: 760px;
+  font-size: 1.1rem;
+  color: #475569;
+  margin-bottom: 50px;
+}
+
+.case-section {
+  max-width: 800px;
+  margin-bottom: 45px;
+}
+
+.case-section h2 {
+  font-size: 1.6rem;
+  color: #0f172a;
+  margin-bottom: 15px;
+}
+
+.case-section p,
+.case-section li {
+  color: #475569;
+  font-size: 1.05rem;
+}
+
+.case-section ul {
+  padding-left: 22px;
+}
+
+.case-section li {
+  margin-bottom: 10px;
+}
+
+.case-buttons {
+  margin-top: 22px;
+}
+
+@media (max-width: 600px) {
+  .case-study h1 {
+    font-size: 2rem;
+  }
+
+  .case-study {
+    padding-top: 50px;
+  }
+}
+
